@@ -1,6 +1,6 @@
 /* ----- body+head+footer (тіло+шапка+підвал) ----- */
 /* ----- body (тіло) -----*/
-.body {
+body {
     background-color: white;
 }
 
@@ -12,6 +12,7 @@
 .header-nav {
     cursor: pointer;
     color: #fff;
+    list-style: none;
 }
 
 .webstudio {
@@ -36,6 +37,7 @@
     color: #fff;
     display: inline;
     cursor: pointer;
+    list-style: none;
 }
 
 .header-contacts-mail{
@@ -63,8 +65,8 @@
 }
 
 .footer-address-ul {
-    color: #2f303a;
     display: inline;
+    list-style: none;
 }
 
 .footer-address-li {
@@ -108,6 +110,7 @@
 
 .our-features-ul{
     color: #212121;
+    list-style: none;
 }
 
 .our-features-li {
@@ -142,7 +145,7 @@
 }
 
 .our-team-ul {
-
+    list-style: none;
 }
 
 .our-team-li {
