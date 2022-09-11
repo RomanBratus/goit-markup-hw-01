@@ -72,7 +72,7 @@ body {
 }
 
 .footer-address-li {
-    color: var(--background-color);
+    color: var(--additional-text-color);
 }
 
 /* additional (додаткові) */
