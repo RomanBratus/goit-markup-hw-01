@@ -117,7 +117,7 @@ body {
 
 /* ----- our-features (текст під банером) ----- */
 .our-features {
-    display: inline;
+    display: flex;
 }
 
 .our-features-ul{
@@ -139,7 +139,7 @@ body {
 }
 
 .what-do-we-do-ul {
-    display: flexbox;
+    display: flex;
     list-style: none;
 }
 
@@ -156,7 +156,7 @@ body {
 
 .our-team-ul {
     list-style: none;
-    display: flexbox;
+    display: flex;
 }
 
 /* .our-team-li {} */
