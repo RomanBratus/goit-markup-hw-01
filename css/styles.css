@@ -5,6 +5,7 @@
 
 /* ----- header section ----- */
 .header {
+    display: inline;
 }
 
 .header-nav {
@@ -32,6 +33,7 @@
 
 .hero-title {
   color: #fff;
+  ;
 }
 
 .hero-button {
