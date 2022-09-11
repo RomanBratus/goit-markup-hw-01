@@ -1,6 +1,6 @@
 /* body color */
 .body {
-  background-color: white;
+    background-color: white;
 }
 
 /* ----- header section ----- */
@@ -9,61 +9,60 @@
 }
 
 .header-nav {
-  color: #fff;
-  cursor: pointer;
+    cursor: pointer;
+    color: #fff;
 }
 
 .header-nav-li {
-  color: #2f303a;
+    color: #2f303a;
 }
 
 .header-contacts {
-  color: #fff;
-  font-size: 14px;
+    font-size: 14px;
+    color: #fff;
 }
 
 .header-contacts-li {
-  color: #757575;
+    color: #757575;
 }
 
 /* ------ hero section ------*/
-.hero {
-  background-color: #2f303a;
+.hero { 
+    background-color: #2f303a;
 }
 
 .hero-title {
-  color: #fff;
-  ;
+    color: #fff;
 }
 
 .hero-button {
-  color: #fff;
-  background: #2196f3;
+    color: #fff;
+    background: #2196f3;
 }
 
 /* ----- footer section -----*/
 .footer {
-  background-color: #2f303a;
+    background-color: #2f303a;
 }
 
 .footer-address-ul {
-  color: #2f303a;
+    color: #2f303a;
 }
 
 .footer-address-li {
-  color: #fff;
+    color: #fff;
 }
 
 /* additional */
 /* "web" and "studio" style title (in header and footer) */
 .web {
-  color: #2196f3;
+    color: #2196f3;
 }
 
 .studio-header {
-  color: #212121;
+    color: #212121;
 }
 
 .studio-footer {
-  color: #fff;
+    color: #fff;
 }
