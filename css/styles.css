@@ -27,14 +27,6 @@ body {
     list-style: none;
 }
 
-.webstudio {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-}
-
 .header-nav-li {
     color: var(--primery-text-color);
 }
@@ -86,6 +78,15 @@ body {
 
 /* additional (додаткові) */
 /* "web" and "studio" style title (in header and footer) */
+
+.webstudio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
 .web {
     color: var(--text-hover-color);
 }
@@ -142,8 +143,7 @@ body {
     list-style: none;
 }
 
-.what-do-we-do-li {
-}
+/* .what-do-we-do-li {} */
 
 /* ----- our team (наша команда) ----- */
 .our-team {
@@ -159,6 +159,4 @@ body {
     display: flexbox;
 }
 
-.our-team-li {
-
-}
+/* .our-team-li {} */
