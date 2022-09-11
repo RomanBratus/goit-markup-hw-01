@@ -38,9 +38,18 @@
   color: #fff;
   background: #2196f3;
 }
+
 /* ----- footer section -----*/
 .footer {
   background-color: #2f303a;
+}
+
+.footer-address-ul {
+color: #2f303a;
+}
+
+.footer-address-li {
+    color: #fff;
 }
 
 /* additional */
