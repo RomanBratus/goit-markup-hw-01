@@ -9,6 +9,7 @@
 
 .header-nav {
   color: #212121;
+  cursor: pointer;
 }
 
 .header-contacts {
