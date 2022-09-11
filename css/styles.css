@@ -6,12 +6,13 @@
 
 /* ----- header section (шапка сайта) ----- */
 .header {
-    display: inline;
+    
 }
 
 .header-nav {
     cursor: pointer;
     color: #fff;
+    display: inline;
 }
 
 .header-nav-li {
@@ -21,11 +22,26 @@
 .header-contacts {
     font-size: 14px;
     color: #fff;
+    display: inline;
+    cursor: pointer;
 }
 
-.header-contacts-li {
+.header-contacts-mail{
     color: #757575;
 }
+
+.header-contacts-mail:focus{
+    color: #2196F3;
+}
+
+.header-contacts-tel{
+    color: #757575;
+}
+
+.header-contacts-tel:focus{
+    color: #2196F3;
+}
+
 
 /* ----- footer section (підвал сайту) -----*/
 .footer {
@@ -68,8 +84,6 @@
     color: #fff;
     background: #2196f3;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 /* ----- our-features (текст під банером) ----- */
