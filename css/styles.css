@@ -1,3 +1,15 @@
+/* COLORS */
+:root{
+    --primery-text-color: #212121;
+    --additional-text-color: #FFFFFF;
+    --paragraph-tex-color: #757575;
+    --text-hover-color: #2196F3;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --background-color: #ffffff;
+    --background-color-additional: #2f303a;
+    --background-color-special: #F5F4FA;
+}
+
 /* ----- body+head+footer (тіло+шапка+підвал) ----- */
 /* ----- body (тіло) -----*/
 body {
@@ -11,7 +23,7 @@ body {
 
 .header-nav {
     cursor: pointer;
-    color: #fff;
+    color: var(--additional-text-color);
     list-style: none;
 }
 
@@ -24,44 +36,43 @@ body {
 }
 
 .header-nav-li {
-    color: #2f303a;
+    color: var(--primery-text-color);
 }
 
 .header-nav-li:hover,
 .header-nav-li:focus{
-    color: #2196F3;
+    color: var(--text-hover-color);
 }
 
 .header-contacts {
     font-size: 14px;
-    color: #fff;
-    display: inline;
+    display: flex;
     cursor: pointer;
     list-style: none;
 }
 
 .header-contacts-mail{
-    color: #757575;
+    color: var(--paragraph-tex-color);
 }
 
 .header-contacts-mail:focus,
 .header-contacts-mail:hover{
-    color: #2196F3;
+    color: var(--text-hover-color);
 }
 
 .header-contacts-tel{
-    color: #757575;
+    color: var(--paragraph-tex-color);
 }
 
 .header-contacts-tel:focus,
 .header-contacts-tel:hover{
-    color: #2196F3;
+    color: var(--text-hover-color);
 }
 
 
 /* ----- footer section (підвал сайту) -----*/
 .footer {
-    background-color: #2f303a;
+    background-color: var(--background-color-additional);
 }
 
 .footer-address-ul {
@@ -70,36 +81,36 @@ body {
 }
 
 .footer-address-li {
-    color: #fff;
+    color: var(--background-color);
 }
 
 /* additional (додаткові) */
 /* "web" and "studio" style title (in header and footer) */
 .web {
-    color: #2196f3;
+    color: var(--text-hover-color);
 }
 
 .studio-header {
-    color: #212121;
+    color: var(--primery-text-color);
 }
 
 .studio-footer {
-    color: #fff;
+    color: var(--additional-text-color);
 }
 
 /* ----- main index.html (основний контент index.html) ----- */
 /* ------ hero section (герой) ------*/
 .hero { 
-    background-color: #2f303a;
+    background-color: var(--background-color-additional);
 }
 
 .hero-title {
-    color: #fff;
+    color: var(--additional-text-color);
 }
 
 .hero-button {
-    color: #fff;
-    background: #2196f3;
+    color: var(--additional-text-color);
+    background: var(--text-hover-color);
     text-align: center;
 }
 
@@ -109,43 +120,43 @@ body {
 }
 
 .our-features-ul{
-    color: #212121;
+    color: var(--primery-text-color);
     list-style: none;
 }
 
 .our-features-li {
-    color: #212121;
+    color: var(--primery-text-color);
 }
 
 /* ----- what-do-we-do (чим ми займаємось) ----- */
 .what-do-we-do {
-    color: #212121
+    color: var(--primery-text-color)
 }
 
 .what-do-we-do-title {
-    color: #212121;
+    color: var(--primery-text-color);
 }
 
 .what-do-we-do-ul {
-    color: #fff;
     display: flexbox;
+    list-style: none;
 }
 
 .what-do-we-do-li {
-    color: #fff;
 }
 
 /* ----- our team (наша команда) ----- */
 .our-team {
-    background-color: #F5F4FA;
+    background-color: var(--background-color-special);
 }
 
 .our-team-title {
-    color: #212121;
+    color: var(--primery-text-color);
 }
 
 .our-team-ul {
     list-style: none;
+    display: flexbox;
 }
 
 .our-team-li {
