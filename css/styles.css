@@ -83,13 +83,27 @@
 
 /* ----- what-do-we-do (чим ми займаємось) ----- */
 .what-do-we-do {
+    color: #212121
+}
+
+.what-do-we-do-title {
     color: #212121;
 }
 
 .what-do-we-do-ul {
     color: #fff;
+    display: inline-block;
 }
 
 .what-do-we-do-li {
-    display: inline-block;
+    color: #fff;
+}
+
+/* ----- our team (наша команда) ----- */
+.our-team {
+    background-color: #F5F4FA;
+}
+
+.our-team-title {
+    color: #212121;
 }
