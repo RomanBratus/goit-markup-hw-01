@@ -8,13 +8,21 @@
 }
 
 .header-nav {
-  color: #212121;
+  color: #fff;
   cursor: pointer;
 }
 
+.header-nav-li {
+  color: #2f303a;
+}
+
 .header-contacts {
-  color: #757575;
+  color: #fff;
   font-size: 14px;
+}
+
+.header-contacts-li {
+    color: #757575
 }
 
 /* ------ hero section ------*/
@@ -32,7 +40,7 @@
 }
 /* ----- footer section -----*/
 .footer {
-    background-color: #2f303a;
+  background-color: #2f303a;
 }
 
 /* additional */
