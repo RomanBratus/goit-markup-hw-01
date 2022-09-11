@@ -12,14 +12,20 @@
 .header-nav {
     cursor: pointer;
     color: #fff;
-    display: inline;
+    display: flex;
 }
 
 .header-nav-li {
     color: #2f303a;
 }
 
+.header-nav-li:hover,
+.header-nav-li:focus{
+    color: #2196F3;
+}
+
 .header-contacts {
+    display: flex;
     font-size: 14px;
     color: #fff;
     display: inline;
