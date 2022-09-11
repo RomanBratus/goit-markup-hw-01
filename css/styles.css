@@ -67,6 +67,7 @@
 .hero-button {
     color: #fff;
     background: #2196f3;
+    text-align: center;
 }
 
 /* ----- our-features (текст під банером) ----- */
@@ -114,5 +115,5 @@
 }
 
 .our-team-li {
-    
+
 }
