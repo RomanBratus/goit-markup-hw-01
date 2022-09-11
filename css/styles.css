@@ -58,6 +58,7 @@
 
 .footer-address-ul {
     color: #2f303a;
+    display: inline;
 }
 
 .footer-address-li {
