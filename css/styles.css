@@ -1,4 +1,5 @@
-/* body color (основа) */
+/* ----- body+head+footer (тіло+шапка+підвал) ----- */
+/* ----- body (тіло) -----*/
 .body {
     background-color: white;
 }
@@ -106,4 +107,12 @@
 
 .our-team-title {
     color: #212121;
+}
+
+.our-team-ul {
+
+}
+
+.our-team-li {
+    
 }
