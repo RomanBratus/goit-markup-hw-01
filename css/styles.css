@@ -1,12 +1,30 @@
+/* body color */
 .body{
     background-color: white;
 }
 
-
+/* ----- heder ----- */
 .heder {
 
 }
 
+/* ------ hero styles ------*/
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #fff;
+}
+
+.hero-button {
+    color: #fff;
+    background: #2196F3;
+    
+
+}
+
+/* web style title (in heder and footer) */
 .web{
     color: #2196F3;
 }
