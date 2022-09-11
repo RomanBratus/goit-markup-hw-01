@@ -1,9 +1,9 @@
-/* body color */
+/* body color (основа) */
 .body {
     background-color: white;
 }
 
-/* ----- header section ----- */
+/* ----- header section (шапка сайта) ----- */
 .header {
     display: inline;
 }
@@ -26,7 +26,7 @@
     color: #757575;
 }
 
-/* ----- footer section -----*/
+/* ----- footer section (підвал сайту) -----*/
 .footer {
     background-color: #2f303a;
 }
@@ -39,7 +39,7 @@
     color: #fff;
 }
 
-/* additional */
+/* additional (додаткові) */
 /* "web" and "studio" style title (in header and footer) */
 .web {
     color: #2196f3;
@@ -53,8 +53,8 @@
     color: #fff;
 }
 
-/* ----- main index.html ----- */
-/* ------ hero section ------*/
+/* ----- main index.html (основний контент index.html) ----- */
+/* ------ hero section (герой) ------*/
 .hero { 
     background-color: #2f303a;
 }
@@ -67,3 +67,17 @@
     color: #fff;
     background: #2196f3;
 }
+
+/* ----- our-features (текст під банером) ----- */
+.our-features {
+    display: inline;
+}
+
+.our-features-ul{
+    color: #212121;
+}
+
+.our-features-li {
+    color: #212121;
+}
+
