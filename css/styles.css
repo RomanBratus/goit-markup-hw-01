@@ -6,7 +6,7 @@
 
 /* ----- header section (шапка сайта) ----- */
 .header {
-    display: flex;
+    display: flexbox;
 }
 
 .header-nav {
@@ -125,7 +125,7 @@
 
 .what-do-we-do-ul {
     color: #fff;
-    display: inline-block;
+    display: flexbox;
 }
 
 .what-do-we-do-li {
