@@ -18,7 +18,12 @@ body {
 
 /* ----- header section (шапка сайта) ----- */
 .header {
-    display: flexbox;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .header-nav {
@@ -38,22 +43,16 @@ body {
 
 .header-contacts {
     font-size: 14px;
-    display: flex;
     cursor: pointer;
     list-style: none;
-}
-
-.header-contacts-mail{
     color: var(--paragraph-tex-color);
 }
+
+/* додаткові налаштування .header-contacts-tel{} .header-contacts-mail{} */
 
 .header-contacts-mail:focus,
 .header-contacts-mail:hover{
     color: var(--text-hover-color);
-}
-
-.header-contacts-tel{
-    color: var(--paragraph-tex-color);
 }
 
 .header-contacts-tel:focus,
