@@ -10,6 +10,14 @@
     --background-color-special: #F5F4FA;
 }
 
+/* link decoration options */
+.link {
+    text-decoration: none;
+}
+
+
+
+
 /* ----- body+head+footer (тіло+шапка+підвал) ----- */
 /* ----- body (тіло) -----*/
 body {
@@ -69,6 +77,15 @@ body {
 .footer-address-ul {
     display: inline;
     list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-address-map {
+    color: var(--additional-text-color);
 }
 
 .footer-address-li {
