@@ -13,6 +13,7 @@
 /* link decoration options in heder and footer */
 .link {
     text-decoration: none;
+    list-style: none;
 }
 
 
