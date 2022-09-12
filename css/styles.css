@@ -10,15 +10,6 @@
     --background-color-special: #F5F4FA;
 }
 
-/* link decoration options in heder and footer */
-.link {
-    text-decoration: none;
-    list-style: none;
-}
-
-
-
-
 /* ----- body+head+footer (тіло+шапка+підвал) ----- */
 /* ----- body (тіло) -----*/
 body {
@@ -26,8 +17,13 @@ body {
 }
 
 /* ----- header section (шапка сайта) ----- */
-.header {
+.link-h {
+    text-decoration: none;
+    list-style: none;
     display: flex;
+}
+
+.header {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -39,6 +35,7 @@ body {
     cursor: pointer;
     color: var(--additional-text-color);
     list-style: none;
+    display: flex;
 }
 
 .header-nav-li {
@@ -71,6 +68,12 @@ body {
 
 
 /* ----- footer section (підвал сайту) -----*/
+
+.link-f {
+    text-decoration: none;
+    list-style: none;
+}
+
 .footer {
     background-color: var(--background-color-additional);
 }
@@ -94,13 +97,15 @@ body {
 }
 
 /* additional (додаткові) */
-/* "web" and "studio" style title (in header and footer) */
+/* "web" and "studio" style logo (in header and footer) */
 .webstudio {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    text-decoration: none;
+    list-style: none;
 }
 
 /* options for tex "web" in logo */
