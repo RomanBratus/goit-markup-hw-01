@@ -54,13 +54,13 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    display: flex;
 }
 
 .header-nav {
     cursor: pointer;
     color: var(--additional-text-color);
     list-style: none;
-    display: flex;
 }
 
 .header-nav-li {
