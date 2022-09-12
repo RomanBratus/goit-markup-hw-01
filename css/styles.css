@@ -95,7 +95,6 @@ body {
 
 /* additional (додаткові) */
 /* "web" and "studio" style title (in header and footer) */
-
 .webstudio {
     font-family: 'Raleway';
     font-style: normal;
@@ -104,19 +103,20 @@ body {
     line-height: 31px;
 }
 
+/* options for tex "web" in logo */
 .web {
     color: var(--text-hover-color);
 }
-
+/* options for tex "studio" in header logo */
 .studio-header {
     color: var(--primery-text-color);
 }
-
+/* options for tex "studio" in footer logo */
 .studio-footer {
     color: var(--additional-text-color);
 }
 
-/* ----- main index.html (основний контент index.html) ----- */
+/* -------------- main index.html (основний контент index.html) --------------  */
 /* ------ hero section (герой) ------*/
 .hero { 
     background-color: var(--background-color-additional);
@@ -124,22 +124,31 @@ body {
 
 .hero-title {
     color: var(--additional-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.006em;
 }
 
 .hero-button {
     color: var(--additional-text-color);
     background: var(--text-hover-color);
     text-align: center;
+    display: flex;
+
+    position: absolute;
 }
 
 /* ----- our-features (текст під банером) ----- */
-.our-features {
-    display: flex;
-}
+/* .our-features {} */
 
 .our-features-ul{
     color: var(--primery-text-color);
     list-style: none;
+    display: flex;
 }
 
 .our-features-li {
