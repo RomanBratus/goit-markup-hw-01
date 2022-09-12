@@ -16,7 +16,32 @@ body {
     background-color: white;
 }
 
-/* ----- header section (шапка сайта) ----- */
+/* LOGO */
+/* "web" and "studio" style logo (in header and footer) */
+.webstudio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* options for tex "web" in logo */
+.web {
+    color: var(--text-hover-color);
+}
+/* options for tex "studio" in header logo */
+.studio-header {
+    color: var(--primery-text-color);
+}
+/* options for tex "studio" in footer logo */
+.studio-footer {
+    color: var(--additional-text-color);
+}
+
+/*  HEADER (шапка сайта)  */
 .link-h {
     text-decoration: none;
     list-style: none;
@@ -93,31 +118,6 @@ body {
 }
 
 .footer-address-li {
-    color: var(--additional-text-color);
-}
-
-/* additional (додаткові) */
-/* "web" and "studio" style logo (in header and footer) */
-.webstudio {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    text-decoration: none;
-    list-style: none;
-}
-
-/* options for tex "web" in logo */
-.web {
-    color: var(--text-hover-color);
-}
-/* options for tex "studio" in header logo */
-.studio-header {
-    color: var(--primery-text-color);
-}
-/* options for tex "studio" in footer logo */
-.studio-footer {
     color: var(--additional-text-color);
 }
 
