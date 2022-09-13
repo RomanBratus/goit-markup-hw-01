@@ -114,12 +114,12 @@ body {
     line-height: 24px;
 }
 
-.footer-address-map {
+.footer-address {
     color: var(--additional-text-color);
 }
 
-.footer-address-li {
-    color: var(--additional-text-color);
+.footer-contacts {
+    color: var(--footer-contact-color);
 }
 
 /* -------------- main index.html (основний контент index.html) --------------  */
@@ -144,7 +144,6 @@ body {
     background: var(--text-hover-color);
     text-align: center;
     display: flex;
-
     position: absolute;
 }
 
