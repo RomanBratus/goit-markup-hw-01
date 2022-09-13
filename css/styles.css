@@ -229,4 +229,11 @@ body {
     display: flex;
 }
 
+
 /* .our-team-li {} */
+
+/* -------------- main potfolio.html (основний контент portfolio.html) --------------  */
+
+.portfofio-btn {
+    display: flex;
+}
