@@ -102,6 +102,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .footer {
@@ -117,11 +118,17 @@ body {
     color: var(--additional-text-color);
 }
 
+.footer-address:hover,.footer-address:focus {
+    color: var(--text-hover-color);
+}
+
 .footer-contacts {
     color: var(--footer-contact-color);
 }
 
-
+.footer-contacts:hover,.footer-contacts:focus {
+    color: var(--text-hover-color);
+}
 
 
 
