@@ -175,6 +175,24 @@ body {
     color: var(--primery-text-color);
 }
 
+.our-features-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.our-features-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
 /* ----- what-do-we-do (чим ми займаємось) ----- */
 .what-do-we-do {
     color: var(--primery-text-color)
