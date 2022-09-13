@@ -122,6 +122,11 @@ body {
     color: var(--footer-contact-color);
 }
 
+
+
+
+
+
 /* -------------- main index.html (основний контент index.html) --------------  */
 /* ------ HERO section (герой) ------*/
 .hero { 
@@ -146,10 +151,6 @@ body {
     display: flex;
     position: absolute;
 }
-
-
-
-
 
 /* ----- our-features (текст під банером) ----- */
 /* .our-features {} */
