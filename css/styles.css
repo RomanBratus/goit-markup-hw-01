@@ -73,7 +73,6 @@ body {
 }
 
 .header-contacts {
-    
     font-size: 14px;
     cursor: pointer;
     list-style: none;
@@ -143,7 +142,7 @@ body {
 .hero { 
     background-color: var(--background-color-additional);
     box-sizing: border-box;
-    width: 1600px;
+    width: auto;
     height: 600px;
     left: 0px;
     top: 80px;
