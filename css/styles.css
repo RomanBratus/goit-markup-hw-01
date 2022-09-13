@@ -97,15 +97,15 @@ body {
 .link-f {
     text-decoration: none;
     list-style: none;
-}
-
-.footer {
-    background-color: var(--background-color-additional);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+}
+
+.footer {
+    background-color: var(--background-color-additional);
 }
 
 .footer-address-ul {
