@@ -93,7 +93,7 @@ body {
 }
 
 
-/* ----- footer section (підвал сайту) -----*/
+/* ----- FOOTER section (підвал сайту) -----*/
 
 .link-f {
     text-decoration: none;
@@ -102,16 +102,16 @@ body {
 
 .footer {
     background-color: var(--background-color-additional);
-}
-
-.footer-address-ul {
-    display: inline;
-    list-style: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+}
+
+.footer-address-ul {
+    display: inline;
+    list-style: none;
 }
 
 .footer-address {
@@ -123,7 +123,7 @@ body {
 }
 
 /* -------------- main index.html (основний контент index.html) --------------  */
-/* ------ hero section (герой) ------*/
+/* ------ HERO section (герой) ------*/
 .hero { 
     background-color: var(--background-color-additional);
 }
@@ -146,6 +146,10 @@ body {
     display: flex;
     position: absolute;
 }
+
+
+
+
 
 /* ----- our-features (текст під банером) ----- */
 /* .our-features {} */
