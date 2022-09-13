@@ -73,6 +73,7 @@ body {
 }
 
 .header-contacts {
+    
     font-size: 14px;
     cursor: pointer;
     list-style: none;
@@ -141,7 +142,7 @@ body {
 /* ------ HERO section (герой) ------*/
 .hero { 
     background-color: var(--background-color-additional);
-    position: absolute;
+    box-sizing: border-box;
     width: 1600px;
     height: 600px;
     left: 0px;
@@ -176,9 +177,9 @@ body {
     display: flex;
 }
 
-.our-features-li {
-    color: var(--primery-text-color);
-}
+/* .our-features-li {
+    color: var();
+} */
 
 .our-features-title {
     font-family: 'Roboto';
@@ -190,6 +191,7 @@ body {
     text-transform: uppercase;
 }
 .our-features-p {
+    color: var(--paragraph-tex-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
