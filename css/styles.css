@@ -97,12 +97,6 @@ body {
 .link-f {
     text-decoration: none;
     list-style: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
 }
 
 .footer {
@@ -112,6 +106,16 @@ body {
 .footer-address-ul {
     display: inline;
     list-style: none;
+}
+
+.footer-address,
+.footer-contacts{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .footer-address {
